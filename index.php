@@ -1,4 +1,7 @@
-<?php include('header.php'); ?>
+<?php 
+$pageTitle = "My MiniFig Store";
+
+include('header.php'); ?>
 	
 		<div class="section banner">
 			<div class="wrapper">
