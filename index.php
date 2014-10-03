@@ -6,12 +6,12 @@ include('header.php'); ?>
 		<div class="section banner">
 			<div class="wrapper">
 				<!--<img class="hero" src="img/mike-the-frog.png" alt="Mike the Frog says:">-->
-				<div class="button">
+				<!--<div class="button">
 					<a href="#">
 						<h2>Hey, I&rsquo;m Mike!</h2>
 						<p>Check Out My Shirts</p>
 					</a>
-				</div>
+				</div>-->
 			</div>
 
 		</div>
