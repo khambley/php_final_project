@@ -10,7 +10,7 @@ include('header.php'); ?>
 
 		</div>
 
-		<div class="section shirts latest">
+		<div class="section minifigs latest">
 
 			<div class="wrapper">
 

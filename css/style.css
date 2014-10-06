@@ -527,7 +527,7 @@ body {font-family: 'museo-sans-rounded', sans-serif; background:#f0eeed; color: 
 }
 .header .nav li.on a {text-decoration: underline;}
 .header .nav li a:hover, .header .nav li a:active {color: #FFE200;}
-.header .nav li.shirts a {background-position: 0px 0px;}
+.header .nav li.minifigs a {background-position: 0px 0px;}
 .header .nav li.contact a {background-position: 0px -105px;}
 .header .nav li.cart a {
     width: 122px;
@@ -598,16 +598,16 @@ body {font-family: 'museo-sans-rounded', sans-serif; background:#f0eeed; color: 
     line-height: 1.2;
     font-weight: normal;    
 }
-.section.page .shirt-details h1 {
+.section.page .minifig-details h1 {
     text-align: left;
 }
 .section.page p {width: 375px; margin-left: auto; margin-right: auto;}
 .bio {width: 375px; margin-left: 0; margin-right: 0;}
 .bio-heading {font-weight: bold; color: #000;}
 .disclaimer {width: 375px; margin-left: 0; margin-right: 0; font-style: italic;}
-.section.page .shirt-details h1 .price {color: #9d9f4e; padding-right: 10px; font-size: 34px;}
-.section.shirts {padding-bottom: 42px; background: #fff;}
-.section.shirts h2 {
+.section.page .minifig-details h1 .price {color: #9d9f4e; padding-right: 10px; font-size: 34px;}
+.section.minifigs {padding-bottom: 42px; background: #fff;}
+.section.minifigs h2 {
     font-size: 24px; 
     color: #c0bfbe;
     text-align: center;
@@ -615,8 +615,8 @@ body {font-family: 'museo-sans-rounded', sans-serif; background:#f0eeed; color: 
     line-height: 1.6;
     font-weight: normal;
 }
-.section.shirts ul.products {margin: 0 0 -17px 0; padding: 0; width: 997px;}
-.section.shirts ul.products li {
+.section.minifigs ul.products {margin: 0 0 -17px 0; padding: 0; width: 997px;}
+.section.minifigs ul.products li {
     display: inline-block;
     list-style: none;
     border: 1px solid #e3e1e0;
@@ -631,11 +631,11 @@ body {font-family: 'museo-sans-rounded', sans-serif; background:#f0eeed; color: 
     position: relative;
     left: -17px;
 }
-.section.shirts ul.products li a:hover:after {
+.section.minifigs ul.products li a:hover:after {
     content: '+';
     font-size: 50px; position: absolute; top: -10px; right: 25px; color: #f16702; vertical-align: top;    
 }
-.section.shirts ul.products li a {
+.section.minifigs ul.products li a {
     background: white;
     display: block;
     padding: 10px 0 10px;
@@ -643,20 +643,20 @@ body {font-family: 'museo-sans-rounded', sans-serif; background:#f0eeed; color: 
     color: #999;
     opacity: .9;
 }
-.section.shirts ul.products li a:hover {
+.section.minifigs ul.products li a:hover {
     opacity: 1;
     color: #666;
 }
-.section.shirts ul.products li img {
+.section.minifigs ul.products li img {
     width: 190px;
 }
-.section.shirts ul.products li p {
+.section.minifigs ul.products li p {
     margin-left: 0;
     margin-right: 0;
     width: auto;
 }
 
-.shirt-picture {
+.minifig-picture {
     float: left;
     width: 400px;
     text-align: center;
@@ -664,18 +664,18 @@ body {font-family: 'museo-sans-rounded', sans-serif; background:#f0eeed; color: 
     padding: 14px;
     background: #f0eeed;    
 }
-.shirt-picture span {
+.minifig-picture span {
     background: white;
     display: block;
     width: 100%;
     padding: 36px 0 61px;
 }
-.shirt-picture img {width: 292px;}
-.shirt-details {
+.minifig-picture img {width: 292px;}
+.minifig-details {
     width: 460px;
     float: right;
 }
-.shirt-details form {
+.minifig-details form {
     margin-left: 0;
 }
 form {width: 375px; margin: 0px auto;}
@@ -744,3 +744,10 @@ form input[type="submit"] {
 .footer a {text-decoration: none; color: #539def; margin: 0 10px;}
 .footer li:first-child a {margin-left: 4px;}
 .footer a:hover, .footer a:active {text-decoration: underline;}
+
+.page p.message {
+    background: #ffeca4;
+    border: 1px solid #f16702;
+    padding: 1em;
+    width: 344px;
+}

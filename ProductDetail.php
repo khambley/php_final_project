@@ -23,12 +23,12 @@ include("header.php");
 <div class="section page">
 	<div class="wrapper">
     	<div class="breadcrumb"><a href="ProductsListing.php">Products Listing</a> &gt; <?php echo $product["name"]; ?></div>
-      <div class="shirt-picture">
+      <div class="minifig-picture">
       	<span>
       	<img src="<?php echo $product["img"]; ?>" alt="<?php echo $product["name"]; ?>" />
         </span>
       </div>
-      <div class="shirt-details">
+      <div class="minifig-details">
       	<h1>Series <?php echo $product["series"]; ?><br /> <?php echo $product["name"]; ?></h1>
         <div class="bio"><span class="bio-heading">BIO</span><br /> <?php echo $product["bio"]; ?></div>
         <h1><span class="price">$<?php echo $product["price"]; ?></span>+ FREE SHIPPING!</h1>

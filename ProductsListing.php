@@ -7,7 +7,7 @@ $section = "products";
 
 include('header.php'); ?>
 
-<div class="section shirts page">
+<div class="section minifigs page">
 	<div class="wrapper">
 		<h1>My Catalog of Minifigures</h1>
         <ul class="products">
