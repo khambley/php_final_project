@@ -12,7 +12,7 @@
 
 	<div class="header">
 		<div class="wrapper">
-			<h1 class="branding-title"><a href="./">Shirts 4 Mike</a></h1>
+			<h1 class="branding-title"><a href="./">My MiniFig Store</a></h1>
 			<ul class="nav">
 				<li class="minifigs <?php if (isset($section) && $section == "products") { echo "on"; } ?>"><a href="ProductsListing.php">Buy Minifigs</a></li>
 				<li class="contact <?php if (isset($section) && $section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact</a></li>
